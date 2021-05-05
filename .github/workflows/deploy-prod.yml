@@ -3,7 +3,7 @@ name: Production deployment
 on: 
   push:
     branches:
-      - main
+      - master
 
 env:
   AZURE_RESOURCE_GROUP: cd-with-actions
