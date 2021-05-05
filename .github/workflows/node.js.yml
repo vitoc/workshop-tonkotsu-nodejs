@@ -32,5 +32,4 @@ jobs:
       with:
         type: lcov
         result_path: coverage/example.lcov
-        min_coverage: 60
-        token: ${{ github.token }}        
+        min_coverage: 60     
