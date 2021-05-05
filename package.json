@@ -9,7 +9,8 @@
     "start": "node index.js",
     "lint": "eslint */**.js",
     "test": "nyc mocha",
-    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "coverage": "nyc --reporter=lcov npm test"
   },
   "dependencies": {
     "chalk": "^2.4.2",
